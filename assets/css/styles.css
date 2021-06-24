@@ -20,6 +20,7 @@
   --input-color: hsl(var(--hue-color), 24%, 97%);
   --body-color: hsl(var(--hue-color), 100%, 99%);
   --white-color: #FFF;
+  --text-nav: #f0505e;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
 
@@ -242,7 +243,7 @@ input {
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: var(--text-nav);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
@@ -843,6 +844,10 @@ input {
     width: 470px;
     margin: 0 auto;
   }
+}
+
+.book {
+  color:#FFF
 }
 
 @media screen and (min-width: 768px) {

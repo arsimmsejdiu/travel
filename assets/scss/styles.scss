@@ -175,7 +175,7 @@ input{
 }
 
 .container{
-    max-width: 968px;
+    max-width: 1268px;
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
 }
@@ -372,6 +372,10 @@ input{
     padding: 1rem 2rem;
     font-weight: var(--font-semi-bold);
     transition: .3s;
+
+    a .book {
+        color: #FFF;
+    }
     
     &:hover{
         background-color: var(--first-color-alt);
@@ -548,6 +552,8 @@ input{
     &__card,
     &__img{
         height: 230px;
+        width: 150px;
+        overflow: var(--img-hidden);
     }
     &__container{
         grid-template-columns: repeat(2, max-content);
@@ -962,6 +968,10 @@ input{
         }
     }
 
+}
+
+.book {
+    color:#FFF
 }
 
 /* For large devices */
