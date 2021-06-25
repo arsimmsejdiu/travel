@@ -1,7 +1,7 @@
 # Responsive Travel Website using php 🌊
 ###  Responsive Travel Website 🌊
 
-- Travel website to the most beautiful beaches, using HTML, CSS & JAVASCRIPT.
+- Travel website to the most beautiful beaches, using HTML, CSS & JAVASCRIPT and PHP.
 - Contains animations when scrolling.
 - Includes a dark and light mode.
 - Developed first with the Mobile First methodology, then for desktop.
